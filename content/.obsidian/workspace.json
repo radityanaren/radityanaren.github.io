@@ -11,10 +11,14 @@
             "id": "cdb5b3b84ea749bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "projects/test.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "test"
             }
           }
         ]
@@ -181,13 +185,14 @@
   },
   "active": "cdb5b3b84ea749bc",
   "lastOpenFiles": [
+    "projects/template.md",
+    "projects/test.md",
+    "snapshots/template.md",
+    "snapshots/_index.md",
+    "projects/_index.md",
+    "blog/template.md",
     "Untitled.base",
     "Untitled.canvas",
-    "snapshots/template.md",
-    "blog/template.md",
-    "projects/template.md",
-    "blog/_index.md",
-    "projects/_index.md",
-    "snapshots/_index.md"
+    "blog/_index.md"
   ]
 }

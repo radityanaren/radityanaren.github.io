@@ -23,18 +23,33 @@
           </div>
         </a>
       {{ else if eq .Section "projects" }}
-        <a href="{{ .RelPermalink }}" class="project-card">
-          <div class="project-thumbnail-ratio">
-            {{ if .Params.thumbnail }}
-              <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
-            {{ else }}
-              <div class="no-image"></div>
-            {{ end }}
-            <div class="project-title-hover">
-              <h2 class="post-title">{{ .Title | markdownify }}</h2>
+        {{ if .Params.project_url }}
+          <a href="{{ .Params.project_url }}" target="_blank" class="project-card">
+            <div class="project-thumbnail-ratio">
+              {{ if .Params.thumbnail }}
+                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
+              {{ else }}
+                <div class="no-image"></div>
+              {{ end }}
+              <div class="project-title-hover">
+                <h2 class="post-title">{{ .Title | markdownify }}</h2>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        {{ else }}
+          <a href="{{ .RelPermalink }}" class="project-card">
+            <div class="project-thumbnail-ratio">
+              {{ if .Params.thumbnail }}
+                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
+              {{ else }}
+                <div class="no-image"></div>
+              {{ end }}
+              <div class="project-title-hover">
+                <h2 class="post-title">{{ .Title | markdownify }}</h2>
+              </div>
+            </div>
+          </a>
+        {{ end }}
       {{ else if eq .Section "snapshots" }}
         <a href="{{ .Params.instagram_url }}" target="_blank" class="post-card snapshot-card">
           <div class="post-thumbnail instagram-embed-thumb snapshot-image-only" data-instagram-url="{{ .Params.instagram_url }}">

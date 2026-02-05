@@ -1,8 +1,9 @@
 ---
 title: "Untitled"
 date: 2000-12-31
-description: "description"
+thumbnail: "/images/me.jpg"
+#project_url: "https://google.com"
 draft: true
-thumbnail: "/images/what.jpg"
 ---
-## Text
+##
+Text

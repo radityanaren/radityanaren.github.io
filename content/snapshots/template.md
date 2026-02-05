@@ -1,7 +1,7 @@
 ---
 date: 2000-12-31
+thumbnail: "/images/me.jpg"
+instagram_url: "https://google.com"
 draft: true
-instagram_url: "https://www.link.com"
-thumbnail: "/images/what.jpg"
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Untitled"
 date: 2000-12-31
-description: "description"
+thumbnail: "/images/me.jpg"
 draft: true
 ---
-## Text
+## 
+Text
