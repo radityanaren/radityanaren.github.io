@@ -1,0 +1,25 @@
+baseURL = 'https://radityanaren.github.io/'
+languageCode = 'en-us'
+title = 'radityanaren'
+
+theme = "cyberscape"
+
+# Enable this for tailwind in markdown files
+[markup.goldmark.renderer]
+unsafe=true
+
+# Add menu links to things from /content/ here (eg. markdown.md)
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[menu.main]]
+name = "Snapshots"
+url = "/snapshots/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 3
