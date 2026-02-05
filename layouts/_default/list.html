@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<main class="w-full h-full bg-white border-4 border-blue-800 border-dotted p-4">
+  {{if not .IsHome }}
+  <h1 class="text-xl font-bold mb-4">{{ .Title | markdownify }}</h1>
+  {{ end }}
+  {{ .Content }}
+  <div class="posts-list">
+    {{ $pages := .Pages }} {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }} 
+    {{ range (sort (where $pages "Section" "in" (slice "blog" "projects" "snapshots")) ".Date" "desc") }}
+      {{ if eq .Section "blog" }}
+        <a href="{{ .RelPermalink }}" class="post-card">
+          <div class="post-thumbnail">
+            {{ if .Params.thumbnail }}
+              <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="thumbnail-img">
+            {{ else }}
+              <div class="no-image"></div>
+            {{ end }}
+          </div>
+          <div class="post-info">
+            <h2 class="post-title">{{ .Title | markdownify }}</h2>
+            <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+          </div>
+        </a>
+      {{ else if eq .Section "projects" }}
+        <a href="{{ .RelPermalink }}" class="project-card">
+          <div class="project-thumbnail-ratio">
+            {{ if .Params.thumbnail }}
+              <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
+            {{ else }}
+              <div class="no-image"></div>
+            {{ end }}
+            <div class="project-title-hover">
+              <h2 class="post-title">{{ .Title | markdownify }}</h2>
+            </div>
+          </div>
+        </a>
+      {{ else if eq .Section "snapshots" }}
+        <a href="{{ .Params.instagram_url }}" target="_blank" class="post-card snapshot-card">
+          <div class="post-thumbnail instagram-embed-thumb snapshot-image-only" data-instagram-url="{{ .Params.instagram_url }}">
+            {{ if .Params.thumbnail }}
+              <img class="insta-image" src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+            {{ else }}
+              <img class="insta-image" alt="{{ .Title }}" />
+            {{ end }}
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+
+{{ end }}

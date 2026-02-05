@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<main
+  class="w-full h-full bg-white border-4 border-gray-200 p-4 overflow-x-auto markdown"
+>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  
+  {{ if .Params.project_url }}
+  <div class="project-links">
+    <a href="{{ .Params.project_url }}" target="_blank" class="project-visit-btn">Visit Project →</a>
+  </div>
+  {{ end }}
+  
+  {{ if .Params.instagram_url }}
+  <div class="project-links">
+    <a href="{{ .Params.instagram_url }}" target="_blank" class="project-visit-btn">View on Instagram →</a>
+  </div>
+  {{ end }}
+  
+  <p>
+    <a href="/{{ .Section }}"> >> Back to {{ .Section | title }}</a>
+  </p>
+</main>
+
+{{ end }}

@@ -1,0 +1,36 @@
+<header class="header-container">
+  <div class="gif-wrapper">
+    <img src="/images/welcome.gif" alt="Header GIF" class="header-gif">
+  </div>
+</header>
+
+<style>
+  .header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .gif-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .header-gif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .header-gif {
+      max-width: 100%;
+    }
+  }
+</style>
