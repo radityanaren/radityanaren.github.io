@@ -1,6 +1,6 @@
-baseURL = 'https://radityanaren.github.io/'
-languageCode = 'en-us'
-title = 'radityanaren'
+baseURL = "https://radityanaren.github.io/"
+languageCode = "en-us"
+title = "radityanaren"
 
 theme = "cyberscape"
 
