@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/test.md",
+                "file": "projects/Project_1_Schplot.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "Project_1_Schplot"
             }
           }
         ]
@@ -186,13 +186,14 @@
   "active": "cdb5b3b84ea749bc",
   "lastOpenFiles": [
     "projects/template.md",
-    "projects/test.md",
+    "projects/Project_1_Schplot.md",
     "snapshots/template.md",
+    "blog/template.md",
     "snapshots/_index.md",
     "projects/_index.md",
-    "blog/template.md",
+    "blog/_index.md",
+    "projects/test.md",
     "Untitled.base",
-    "Untitled.canvas",
-    "blog/_index.md"
+    "Untitled.canvas"
   ]
 }

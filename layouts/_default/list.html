@@ -19,34 +19,40 @@
           </div>
           <div class="post-info">
             <h2 class="post-title">{{ .Title | markdownify }}</h2>
-            <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+            <p class="post-date">{{ .Date.Format "2 January 2006" }}</p>
           </div>
         </a>
       {{ else if eq .Section "projects" }}
         {{ if .Params.project_url }}
-          <a href="{{ .Params.project_url }}" target="_blank" class="project-card">
-            <div class="project-thumbnail-ratio">
+          <a href="{{ .Params.project_url }}" target="_blank" class="post-card project-card">
+            <div class="post-thumbnail project-thumbnail">
               {{ if .Params.thumbnail }}
-                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
+                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-thumbnail-img">
               {{ else }}
                 <div class="no-image"></div>
               {{ end }}
-              <div class="project-title-hover">
-                <h2 class="post-title">{{ .Title | markdownify }}</h2>
-              </div>
+            </div>
+            <div class="post-info project-info">
+              <h2 class="post-title project-title">{{ .Title | markdownify }}</h2>
+              {{ if .Params.description }}
+                <p class="post-date project-description">{{ .Params.description }}</p>
+              {{ end }}
             </div>
           </a>
         {{ else }}
-          <a href="{{ .RelPermalink }}" class="project-card">
-            <div class="project-thumbnail-ratio">
+          <a href="{{ .RelPermalink }}" class="post-card project-card">
+            <div class="post-thumbnail project-thumbnail">
               {{ if .Params.thumbnail }}
-                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-img-ratio" />
+                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="project-thumbnail-img">
               {{ else }}
                 <div class="no-image"></div>
               {{ end }}
-              <div class="project-title-hover">
-                <h2 class="post-title">{{ .Title | markdownify }}</h2>
-              </div>
+            </div>
+            <div class="post-info project-info">
+              <h2 class="post-title project-title">{{ .Title | markdownify }}</h2>
+              {{ if .Params.description }}
+                <p class="post-date project-description">{{ .Params.description }}</p>
+              {{ end }}
             </div>
           </a>
         {{ end }}
