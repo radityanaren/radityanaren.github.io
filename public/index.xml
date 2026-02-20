@@ -6,8 +6,50 @@
     <description>Recent content on radityanaren</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/snapshots/art1/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/snapshots/art1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/snapshots/art2/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/snapshots/art2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/snapshots/photo1/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/snapshots/photo1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/snapshots/photo2/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/snapshots/photo2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ContrastLens</title>
+      <link>http://localhost:1313/projects/contrastlens/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/contrastlens/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Text&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In Response to “Plenty of Room at the Bottom” by Richard Feynman</title>
+      <link>http://localhost:1313/blog/reflection/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/reflection/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In 1959, Richard Feynman did a lectures that set a scene for future physicist to come, I don’t know physicist in 1950s so I don’t talk about it, but I know he did made a fuss since he already was a highly respected theoretical physicist in his era. In modern era I see a lot of people in the internet still impressed by how imaginative Feynman was by this lecture, let’s just talk bit by bit of what and how he discussed it and I will response him that sent signal to the Valhalla.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Schplot</title>
       <link>http://localhost:1313/projects/schplot/</link>
