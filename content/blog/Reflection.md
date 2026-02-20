@@ -2,7 +2,7 @@
 title: "In Response to “Plenty of Room at the Bottom” by Richard Feynman"
 date: 2026-02-20
 thumbnail: "/images/Reflection.jpg"
-draft: true
+draft: false
 ---
 ## 
 In 1959, Richard Feynman did a lectures that set a scene for future physicist to come, I don’t know physicist in 1950s so I don’t talk about it, but I know he did made a fuss since he already was a highly respected theoretical physicist in his era. In modern era I see a lot of people in the internet still impressed by how imaginative Feynman was by this lecture, let’s just talk bit by bit of what and how he discussed it and I will response him that sent signal to the Valhalla.
