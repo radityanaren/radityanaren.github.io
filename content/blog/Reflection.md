@@ -1,7 +1,7 @@
 ---
 title: "In Response to “Plenty of Room at the Bottom” by Richard Feynman"
 date: 2026-02-20
-thumbnail: "/images/reflection.jpg"
+thumbnail: "/images/Reflection.jpg"
 draft: false
 ---
 ## 
