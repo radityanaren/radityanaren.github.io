@@ -6,8 +6,15 @@
     <description>Recent content in Projects on radityanaren</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SimpleCharts</title>
+      <link>http://localhost:1313/projects/simplecharts/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/simplecharts/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Text&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ContrastLens</title>
       <link>http://localhost:1313/projects/contrastlens/</link>
